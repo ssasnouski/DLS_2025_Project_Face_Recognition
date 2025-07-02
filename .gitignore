@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.venv/
+venv/
+ENV/
+env/
+
+# Models and large binaries
+*.pt
+*.pkl
+*.joblib
+
+# OS junk files
+.DS_Store
+Thumbs.db
