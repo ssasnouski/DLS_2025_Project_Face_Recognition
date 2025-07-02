@@ -31,6 +31,7 @@ The goal is to train a neural network that **maps a face to a vector (embedding)
 - embeddings of **different people** are far apart (e.g., using cosine distance).
 
 ❗ We **don’t train a regular classifier** with one class per person. Instead, we want a model that works on **unseen identities**. Model that is be able to handle faces of people who are not present in the training data. We want it to produce **close embeddings** for different photos of the **same person**, and **distant embeddings** for faces of **different people**.
+
 ---
 
 ## ✅ Completed Assignments
