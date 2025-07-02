@@ -1,7 +1,5 @@
-# DLS_2025_Project_Face_Recognition
-Deep Learning School final project (MIPT). Face detection, alignment and recognition.
-
 # 🧠 Face Recognition Project
+Deep Learning School final project (MIPT). Face detection, alignment and recognition.
 
 **The goal of this project is to build a complete face recognition system** that includes detection, alignment, and vector representation of faces for further comparison.
 
@@ -32,8 +30,7 @@ The goal is to train a neural network that **maps a face to a vector (embedding)
 - embeddings of the **same person** are close,
 - embeddings of **different people** are far apart (e.g., using cosine distance).
 
-❗ We **don’t train a classifier** with one class per person. Instead, we want a model that works on **unseen identities** (open-set recognition) — producing close embeddings for the same person and distant ones for different people.
-
+❗ We **don’t train a regular classifier** with one class per person. Instead, we want a model that works on **unseen identities**. Model that is be able to handle faces of people who are not present in the training data. We want it to produce **close embeddings** for different photos of the **same person**, and **distant embeddings** for faces of **different people**.
 ---
 
 ## ✅ Completed Assignments
@@ -76,18 +73,3 @@ The goal is to train a neural network that **maps a face to a vector (embedding)
 - ✅ Demonstrate on same/different person examples using cosine distance
 
 ---
-
-## 📂 Project Structure
-
-FaceRecognitionProject/
-├── notebooks/
-│ ├── Face_Classification_ArcFace_Embeddings.ipynb
-│ ├── Face_Alignment_Hourglass_Network.ipynb
-│ └── Face_Recognition_Pipeline.ipynb
-├── models/
-│ ├── model_arcface.pt
-│ ├── hourglass_keypoints.pt
-│ └── ...
-├── README.md
-├── LICENSE
-└── .gitignore
