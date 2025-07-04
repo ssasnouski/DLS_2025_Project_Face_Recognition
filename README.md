@@ -42,7 +42,7 @@ The goal is to train a neural network that **maps a face to a vector (embedding)
 
 **Plan:**
 - ✅ Choose a model pretrained on ImageNet
-- ✅ Train it using cross-entropy loss → achieve accuracy > 0.7
+- ✅ Train it using **CrossEntropy loss** → achieve accuracy > 0.7
 - ✅ Implement and train with **ArcFace loss** → accuracy > 0.7
 
 ---
